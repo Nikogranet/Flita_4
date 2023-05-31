@@ -41,7 +41,6 @@ while (Factor == True):
     if (top_to_remove in unique_vertices):
         Factor=False
 
-
 with open("list.txt", 'r') as file:
     const = 0
     start_time = time.time()
